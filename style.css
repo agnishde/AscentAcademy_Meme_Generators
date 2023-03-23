@@ -1,0 +1,52 @@
+.container {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+label {
+	flex-basis: 100%;
+	margin-bottom: 10px;
+}
+
+input[type="text"] {
+	flex-basis: 100%;
+	padding: 10px;
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.meme-container {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#meme-image {
+	max-width: 100%;
+}
+
+h2 {
+	font-size: 2rem;
+	line-height: 1.2;
+	margin: 10px 0;
+}
